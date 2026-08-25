@@ -26,9 +26,9 @@ The model coefficient resource remains external and is verified before use.
 
 The empirical state can be written schematically as
 
-\[
+```math
 X = X_0 + \sum_j c_j G_j(d,t,\phi,\lambda,F,\bar F,A_p),
-\]
+```
 
 where fitted basis functions represent solar, geomagnetic, seasonal,
 latitudinal and local-time effects.
@@ -37,21 +37,21 @@ The vertical thermosphere combines a fitted upper-temperature state with
 diffusive constituent profiles. A constituent number density follows the
 hydrostatic/diffusive form
 
-\[
+```math
 \frac{d n_i}{dz}
 =
 -n_i\frac{m_i g}{kT}
 -
 (1+\alpha_i)\frac{n_i}{T}\frac{dT}{dz}.
-\]
+```
 
 Aggregate density is a constituent mass sum,
 
-\[
+```math
 \rho_{2.0} = \sum_{i\in S_{2.0}} m_i n_i,
-\]
+```
 
-where \(S_{2.0}\) is the accepted NRLMSIS 2.0 constituent set. In this
+where $S_{2.0}$ is the accepted NRLMSIS 2.0 constituent set. In this
 compatibility implementation the nitric-oxide contribution used by the 2.1
 state is not included.
 
