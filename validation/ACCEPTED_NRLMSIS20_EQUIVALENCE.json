@@ -1,0 +1,18 @@
+{
+  "binary32_bitwise_differences": 0,
+  "cases": 200,
+  "final_acceptance_lock_sha256": "32012708b203c58f7bd552c5ec15c774bf09387f816876831f1ff54a1f18f811",
+  "frozen_tolerance_mismatches": 0,
+  "high_precision_science_lock_sha256": "63cee6d72fe99c7d5f45a9a156d0de4d4db707335c10cd3084a7ab1e62d482e8",
+  "m18_3_lock_sha256": "8967bb9e1dc5c1c72082dc5a1bb0f5f12e6fb5181bd9593ae6fe5350d59e4df5",
+  "m18_4_lock_sha256": "fab2e496fa10ea2a8eb0ef75e198a6ecacbf7474101ebc79a7edd9e1d5d629aa",
+  "official_executable_sha256": "400728342fe759f0a1e6908ea77333b902565d54cf0797d1301f8f387b92108c",
+  "official_oracle_library_sha256": "b66fa14ff3ee74f68bbe3beb5d58800000bc3325ce3687ca1d68abec7dcbd82a",
+  "payloads_included": false,
+  "programme": "ELARA_X_ATMO_REPO_M02_NRLMSIS_WAVE1",
+  "scalar_comparisons": 2200,
+  "schema_version": "1.0.0",
+  "scientific_identity_sha256": "c720f852e4966c1fd3519618c46858d6494a0a40f702ff0eb8271abcb567d14e",
+  "statement": "Metadata-only record of the accepted M18 official/native comparison; oracle payloads are not redistributed.",
+  "status": "ATMO_M18_FINAL_INDEPENDENT_VERIFICATION_PASSED_NRLMSIS20_COMPLETE"
+}

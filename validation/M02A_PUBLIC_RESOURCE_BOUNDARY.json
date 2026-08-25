@@ -1,0 +1,16 @@
+{
+  "intentional_public_boundary_divergence": true,
+  "official_parameter_payload_bundled": false,
+  "phase": "ATMO_REPO_M02A",
+  "policy": "EXTERNAL_VERIFIED_RESOURCE_ONLY",
+  "private_resources_sha256": "82dc6160b6d28bd5d9752b681675d6d7ac39bcb1537a2fbe02615b79236aa905",
+  "public_repository_resources_sha256": "eb6d32980be7d3c224d78d68ee7b4b1878364f6c349edd816876cb0958299660",
+  "reason": "The standalone public repository must not contain an implicit path into the private Elara X controlled atmospheric workspace.",
+  "resolution_contract": [
+    "explicit resource argument",
+    "ELARA_X_NRLMSIS20_PARM",
+    "ELARA_X_NRLMSIS21_PARM",
+    "otherwise controlled ResourceNotConfiguredError"
+  ],
+  "status": "ATMO_REPO_M02A_ACCEPTED_PUBLIC_RESOURCE_BOUNDARY_LOCKED"
+}

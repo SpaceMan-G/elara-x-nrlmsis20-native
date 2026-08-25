@@ -1,0 +1,26 @@
+{
+  "component": "elara-x-nrlmsis20-native",
+  "created_utc": "2026-08-25T19:32:19.985728+00:00",
+  "implementation_strategy": "SEPARATE_COMPATIBILITY_NAMESPACE_USING_ACCEPTED_NRLMSIS21_NATIVE_CORE_WITH_NO_DISABLED_AND_EXCLUDED",
+  "official_nrlmsis20_source_redistributed": false,
+  "oracle_payloads_redistributed": false,
+  "parameter_payload_redistributed": false,
+  "private_elara_x_code_redistributed": false,
+  "programme": "ELARA_X_ATMO_REPO_M02_NRLMSIS_WAVE1",
+  "schema_version": "1.0.0",
+  "scientific_identity_sha256": "c720f852e4966c1fd3519618c46858d6494a0a40f702ff0eb8271abcb567d14e",
+  "source_file_sha256": {
+    "__init__.py": "c07f60411df49c5b1203c68342f96d09541a2bbd86ebd7763889aea233b3fab6",
+    "api.py": "f92aa6c854bdf65b0cecd3053034ae212c4c72c82d0ee80d96f4adc9bfcf13f9",
+    "constants.py": "3c97e85f5ea891e200dcce38d8efe6ec25fcff1c06697a6109b1f37b1055f5ca",
+    "density.py": "fede84c5e8d0f2845289e538bf0f26da9e4317f3e4445d3ba043ce2f429459f7",
+    "horizontal.py": "1113030999565ccec233f8b0e95afa8562f58099510e99bfe4fe8f3a704c1bff",
+    "legacy_interface.py": "b87481bbf999b70ac441daae645c485a3a47edbbb4fe58714599ef8b1294d39c",
+    "model.py": "bb49106ad0f4f5292540a5cff110a5ba27828ea0067a9bd80d4471266c68d8b4",
+    "parameters.py": "5b5302c2f6ec092d064c83c81f245d6b6cb6a4ae32d692499f20b350782ff8b3",
+    "resources.py": "82dc6160b6d28bd5d9752b681675d6d7ac39bcb1537a2fbe02615b79236aa905",
+    "temperature.py": "d82408d265322e124597b6db6964f48a1ebe5b68a974ce8e512105eda420edcf",
+    "utilities.py": "3383b0e9123b7ffe6d0459bf2a63845e04862699325da325820f60f8e066177a"
+  },
+  "version": "0.1.0.dev0"
+}
