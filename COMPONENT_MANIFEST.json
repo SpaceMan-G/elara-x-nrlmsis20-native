@@ -42,6 +42,17 @@
     "validation/ACCEPTED_NRLMSIS20_EQUIVALENCE.json": "63a2d3653053a9b9124bfeab29c3f524d277c37be6b738954033a14c811d7d1b",
     "validation/M02A_PUBLIC_RESOURCE_BOUNDARY.json": "fd7d08679c2d0eabc7790d57146233d2afe05f387e9fc25ab295cdd64be2fdcb"
   },
+  "m07_repository_enhancement": {
+    "documentation": {
+      "RESULT_PUBLICATION_POLICY.json": "dff1030b5f85c716c435e8a8ad8543948b30ce6dc559c08e92f4225b1a1a8018",
+      "docs/PAPER_RESULT_PUBLICATION.md": "318d25e2683eb06024eaa89f8f52ba4ea46fa642355a5aabc76ea96886f86fa6",
+      "docs/SCIENTIFIC_MODEL_GUIDE.md": "93fe53beed7599d8352960f6ba23c1f96829a21eb55c74ce991f8cbb75f7e593",
+      "results/README.md": "f391e6fcf516a51a987fab87700dcfcfacf6bf4eab276c4b8d09043abd7eeb13"
+    },
+    "model": "NRLMSIS_20",
+    "schema_version": 1,
+    "scientific_source_changed": false
+  },
   "programme": "ELARA_X_ATMO_REPO_M02_NRLMSIS_WAVE1",
   "project_mutations_performed": 0,
   "restricted_payloads_included": false,
