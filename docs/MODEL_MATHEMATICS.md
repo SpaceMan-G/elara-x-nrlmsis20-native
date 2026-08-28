@@ -17,7 +17,7 @@ A thermospheric empirical model can be represented schematically as a mapping
 (T,\rho,\mathbf{n}),
 ```
 
-where $t$ is epoch, $\mathbf{r}$ is position, $\mathbf{s}$ contains the required space-weather drivers, $T$ is temperature, $\rho$ is total mass density and $\mathbf{n}$ denotes constituent densities where provided.
+where $`t`$ is epoch, $`\mathbf{r}`$ is position, $`\mathbf{s}`$ contains the required space-weather drivers, $`T`$ is temperature, $`\rho`$ is total mass density and $`\mathbf{n}`$ denotes constituent densities where provided.
 
 
 ## Thermospheric temperature structure
@@ -29,13 +29,13 @@ T(z) = T_\infty - \left(T_\infty - T_\ell\right)
 \exp\!\left[-s\left(z-z_\ell\right)\right],
 ```
 
-where $T_\infty$ is exospheric temperature, $T_\ell$ is the temperature at a lower reference level, and $s$ controls the vertical temperature gradient.
+where $`T_\infty`$ is exospheric temperature, $`T_\ell`$ is the temperature at a lower reference level, and $`s`$ controls the vertical temperature gradient.
 
 The precise accepted implementation contains the fitted model basis and transition logic. This equation is therefore explanatory rather than a replacement implementation.
 
 ## Hydrostatic/diffusive structure
 
-For a constituent $i$, hydrostatic balance can be written as
+For a constituent $`i`$, hydrostatic balance can be written as
 
 ```math
 \frac{dp_i}{dz} = -\rho_i g,
@@ -68,7 +68,7 @@ The accepted public repository implements the frozen Elara X NRLMSIS 2.0 compati
 
 ## Unit discipline
 
-Density is normally exposed by the Elara X public interfaces in SI units of kg m$^{-3}$ unless the interface explicitly documents a model-native unit. Angles, altitude and space-weather indices must follow the repository interface contract. Do not infer units from a variable name alone.
+Density is normally exposed by the Elara X public interfaces in SI units of kg m$`^{-3}`$ unless the interface explicitly documents a model-native unit. Angles, altitude and space-weather indices must follow the repository interface contract. Do not infer units from a variable name alone.
 
 ## Scientific reference
 
